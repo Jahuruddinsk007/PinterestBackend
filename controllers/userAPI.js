@@ -52,7 +52,7 @@ router.post('/register', (req, res) => {
                                 res.status(200).send("errokkshr");
                             } else {
                                 // console.log('Email sent: ' + info.response);
-                                res.status(200).send({ message: "Registration Successfull and mail send sucessfull" });
+                                res.status(200).send({ message: "Registration Successfull and mail send sucessfully" });
                             }
                         });
                     })
