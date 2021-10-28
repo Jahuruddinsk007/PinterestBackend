@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <Link rel="stylesheet" href="../assets/css/style.css"></Link>
+</head>
+<body>
+    
+
+    <h1> Hii, Welcome to Ejs about Page</h1>  
+    
+    <h2>
+        <ul>
+        <% result.result.forEach(function(i){ %>
+            <li><%=i.ID%></li> 
+            <li><%=i.Email%></li>
+            <li><%=i.Mobile%></li>
+            <li><%=i.Name%></li>
+            <li><%=i.Sex%></li>
+            <li><%=i.Country%></li>
+            <br/><br/>
+        <%})%>
+    </ul>
+    </h2>
+</body>
+</html>
